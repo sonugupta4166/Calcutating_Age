@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>resume building</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Creator</title>
+    <!-- style link here -->
+    <link rel="stylesheet" href="resume.css" />
+</head>
+  
+<body>
+    <!-- input container starts here -->
+    <section class="resume-builder">
+        <div class="container">
+            <h1>Resume Creator</h1>
+            <div class="resume_container">
+                <form class="inputField">
+                    <h5>Your Main Heading</h5>
+                    <input type="text" 
+                           name="name" 
+                           placeholder="" 
+                           title="Enter Your Name" />
+                           <h5>Your Subheading</h5>
+                    <input type="text" 
+                           name="title" 
+                           placeholder="" 
+                           title="Enter Title/Sub Heading" />
+                           <h5>Enter Your work_experience</h5>
+                    <textarea name="work_experience" 
+                              placeholder="Work Experience" 
+                              cols="40" rows="3"
+                              title="Enter Your Work Experience">
+                    </textarea>
+                    <h5>Your academic_details</h5>
+                    <textarea name="academic_details" 
+                              placeholder="Academic Details" 
+                              cols="40" rows="3"
+                              title="Enter Your Academic Details">
+                    </textarea>
+                    <h5>Your Objective</h5>
+                    <input type="text" placeholder="" 
+                           title="Enter Your Objective" 
+                           name="objective" />
+                           <h5> Enter Your Skills</h5>
+                    <textarea name="skills" 
+                              title="Enter Your Skills" 
+                              placeholder="Skills" cols="40"
+                              rows="3">
+                    </textarea>
+                    <h5>Enter Your projects</h5>
+                    <textarea name="projects" 
+                              title="Enter Your Projects" 
+                              placeholder="Projects" 
+                              cols="40"
+                              rows="3">
+                    </textarea>
+                    <h5>Enter Your Achievements</h5>
+                    <textarea name="achievements" 
+                              placeholder="Achievements" 
+                              cols="40" rows="3"
+                              title="Enter Your Achievements">
+                    </textarea>
+                    <h5>Enter Contact Detail</h5>
+                    <textarea name="contact" 
+                              placeholder="Contact Information" 
+                              cols="40" rows="3"
+                              title="Enter Your Contact Information">
+                    </textarea>
+                </form>
+            </div>
+            <p class="credit">
+                Created by
+                <a href=
+"" 
+                   target="_blank">
+                      sonu kumar
+                </a>
+            </p>
+            <p class="tip">
+                *You can use markup in the text area for text decoration*
+            </p>
+        </div>
+    </section>
+    <!-- input container ends here -->
+  
+    <!-- output container starts here -->
+    <div class="output_container"></div>
+    <!-- output container ends here -->
+  
+    <!-- preview button -->
+    <button onclick="hide()">
+          Generate / Edit
+      </button>
+  
+    <!-- script link here -->
+    <script src="resume.js"></script>
+</body> 
+</html>
